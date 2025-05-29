@@ -22,8 +22,9 @@
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{c9ace397-dac9-47fb-bc54-bb1e03b4eba6}</ProjectGuid>
-    <RootNamespace>ConsoleApplication1</RootNamespace>
+    <RootNamespace>WordleGame</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>WordleGame</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -138,6 +139,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="WordleGame.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="5_letters_words.txt" />
@@ -147,6 +149,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="WordleGame.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
