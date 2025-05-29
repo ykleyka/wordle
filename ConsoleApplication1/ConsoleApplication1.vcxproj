@@ -143,7 +143,10 @@
     <Text Include="5_letters_words.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Font Include="arialmt.ttf" />
+    <Font Include="Montserrat-Bold.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WordleGame.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -20,13 +20,18 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="5_letters_words.txt">
-      <Filter>Исходные файлы</Filter>
-    </Text>
+    <ClInclude Include="WordleGame.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Font Include="arialmt.ttf">
-      <Filter>Исходные файлы</Filter>
+    <Font Include="Montserrat-Bold.ttf">
+      <Filter>Файлы ресурсов</Filter>
     </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="5_letters_words.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
   </ItemGroup>
 </Project>
