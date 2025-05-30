@@ -143,6 +143,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="5_letters_words.txt" />
+    <Text Include="words.txt" />
   </ItemGroup>
   <ItemGroup>
     <Font Include="Montserrat-Bold.ttf" />

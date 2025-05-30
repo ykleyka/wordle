@@ -36,6 +36,9 @@
     <Text Include="5_letters_words.txt">
       <Filter>Файлы ресурсов</Filter>
     </Text>
+    <Text Include="words.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <Image Include="icon.png">
